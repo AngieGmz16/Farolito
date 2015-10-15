@@ -1,0 +1,100 @@
+/********************************
+Colores a utilizar
+Gris: #989898 
+Gris oscuro: #4d4545 
+Celeste: #28c5e6
+Anaranjado: #ff6a49
+Verde: #77d248 
+Amarillo: #ffc200
+*********************************/
+*{
+	font-family: 'Lato', sans-serif;
+}
+
+
+.celeste{
+	color: #28c5e6;
+}
+
+.gris-claro{
+	color: #989898;
+}
+
+
+img{
+	margin-top: 20%;
+	margin-left: 25%;
+	position: relative;
+	margin-bottom: 10%;
+}
+
+
+p{
+	position: relative;
+	margin-left: 17%;
+}
+
+
+
+/*formulario*/
+form{
+	width: 450px;
+	margin: auto;
+	background: #ffffff;
+	padding: 10px 20px;
+	box-sizing: border-box;
+	margin-top: -58%;
+	margin-left: 100%;
+
+}
+
+h2{
+	text-align: center;
+	margin: 0;
+	margin-bottom: 30px;
+}
+
+input, textarea{
+	width: 100%;
+	margin-bottom: 20px;
+	padding: 7px;
+	box-sizing: border-box;
+	font-size: 17px;
+	
+
+}
+
+textarea{
+	min-height: 100px;
+	max-height: 100px;
+	max-width: 100%;
+}
+
+#textarea2{
+	width: 40%;
+}
+
+h6{
+	left: 70%;
+	position: relative;
+	margin-top: -5%;
+}
+
+
+#boton{
+	background: #ff6a49;
+	color: white;
+	padding: 5px;
+	width: 40%;
+	height: 45px;
+	margin-left: 60%;
+	border-radius: 6px;
+	font-size: 14px;
+	font-weight: bold;
+
+}
+
+#boton:hover{
+	cursor: pointer;
+}
+

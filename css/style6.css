@@ -1,0 +1,171 @@
+/********************************
+Colores a utilizar
+Gris: #989898 
+Gris oscuro: #4d4545 
+Celeste: #28c5e6
+Anaranjado: #ff6a49
+Verde: #77d248 
+Amarillo: #ffc200
+*********************************/
+*{
+	font-family: 'Lato', sans-serif;
+}
+/************Clases que uso más*************/
+.relativa{
+	position: relative;
+}
+
+.left{
+	margin-left: 20%;
+}
+
+.top{
+	margin-top: 10%;
+}
+.centro{
+	text-align: center;
+}
+
+.naranja{
+	color: #ff6a49;
+}
+.gris-claro{
+	color: #989898;
+}
+
+.celeste{
+	color: #28c5e6;
+}
+.amarillo{
+	color: #ffc200;
+}
+
+.blanco{
+	color: #ffffff;
+}
+
+.naranja2{
+	color: #faa819;
+}
+/********************************************/
+
+
+/*Menu*/
+.blue{
+	background: #CEF6F5;
+	background-size: 100%;
+	height: 50px;
+}
+
+nav ul{
+	list-style-type: none;
+	margin-top:-3%;
+	float: right;
+	font-size: 18px;
+	line-height: 14px;
+}
+
+nav li{
+	position: relative;
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+
+nav a{
+	text-decoration: none;
+	padding: 10px 15px;
+	color: #989898;
+	font-weight: bold;
+}
+
+nav a:hover{
+	color: #28c5e6;
+}
+
+
+/*Botones del menu*/
+.redondo{
+	border: 1px solid #989898;
+	margin-left: 4px;
+	border-radius: 10px;
+	padding: 5px 3px;
+	font-size: 10px;
+	margin-top: -10px;
+}
+
+#white{
+	background: #cccccc;
+	color: white;
+	font-weight: bold;
+}
+
+/*Contenido-texto*/
+h2{
+	margin-right: -10%;
+	margin-bottom: 10%;
+}
+
+.letrasgris{
+	margin-top: 10%;
+	margin-bottom: 5%;
+}
+
+img{
+	border-radius: 10px;
+}
+
+/*Contenido-cuadro*/
+.cuadro{
+	background: #E6E6E6;
+	width: 50%;
+	height: 200px;
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+
+.textocuadro{
+	color: #cccccc;
+	border-bottom: 1px solid;
+	font-weight:bold;
+	padding: 3% 3%;
+}
+
+.imgsmall{
+	width: 22%;
+	height: 35%;
+	margin-left: 37%;
+	margin-top: -5%;
+	border-radius: 50%;
+}
+
+.left2{
+	margin-left: 40%;
+	margin-top: -8%;
+}
+
+p{
+	font-size: 20px;
+	text-align: justify;
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+
+
+/*Footer*/
+.piedepagina{
+	background:#989898;
+	background-size: 100%;
+	height: 50px;
+	margin-top: 4%;
+}
+
+.redes{
+	border-radius: 53%;
+	margin-top: -3%;
+	margin-left: 1%;
+}
+
+h6{
+	left: 80%;
+}

@@ -1,0 +1,84 @@
+/*Formulario*/
+/********************************
+Colores a utilizar
+Gris: #989898 
+Gris oscuro: #4d4545 
+Celeste: #28c5e6
+Anaranjado: #ff6a49
+Verde: #77d248 
+Amarillo: #ffc200
+*********************************/
+*{
+	font-family: 'Lato', sans-serif;
+}
+/************Clases que uso más*************/
+body{
+	background-color: #cccccc;
+	margin: 0;
+	font-family: tahoma;
+}
+
+form{
+	width: 450px;
+	margin: auto;
+	background: #ffffff;
+	padding: 10px 20px;
+	box-sizing: border-box;
+	margin-top: 30px;
+	border-radius: 20px;
+	border: 5px solid #989898;
+}
+
+h2{
+	text-align: center;
+	margin: 0;
+	margin-bottom: 30px;
+}
+
+input, textarea{
+	width: 100%;
+	margin-bottom: 20px;
+	padding: 7px;
+	box-sizing: border-box;
+	font-size: 17px;
+	font-family: tahoma;
+
+}
+
+textarea{
+	min-height: 100px;
+	max-height: 100px;
+	max-width: 100%;
+}
+
+#textarea2{
+	width: 40%;
+}
+
+
+
+
+#boton{
+	background: #28c5e6;
+	color: white;
+	padding: 5px;
+	width: 30%;
+	margin-left: 65%;
+	border-radius: 20px;
+	font-size: 14px;
+	font-weight: bold;
+
+}
+
+#boton:hover{
+	cursor: pointer;
+}
+
+
+.celeste{
+	color: #28c5e6;
+}
+
+.gris-claro{
+	color: #989898;
+}
